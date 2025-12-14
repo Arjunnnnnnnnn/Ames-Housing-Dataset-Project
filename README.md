@@ -1,24 +1,16 @@
-
-## 4️⃣ `ames-housing-price-prediction` – README.md
-
-```markdown
 # Ames Housing Price Prediction
 
 End-to-end regression project predicting **sale prices of homes in Ames, Iowa**
 using the well-known Ames Housing dataset. Built with a focus on **clean feature
 engineering, linear models, and RMSE-based evaluation**.
 
----
 
 ## 1. Project Overview
 
 Goal: predict `SalePrice` for residential properties given rich structured data
 (79+ features) about the property, location, and condition.
 
-This was completed as a course project for a Machine Learning / Regression module
-(using Python and scikit-learn).
 
----
 
 ## 2. Dataset
 
@@ -34,7 +26,6 @@ Typical preprocessing steps:
 - Log-transform `SalePrice` and skewed numeric features.
 - Standardise numeric features where necessary.
 
----
 
 ## 3. Methods
 
@@ -51,15 +42,14 @@ Typical preprocessing steps:
   - Train/validation split or cross-validation.
   - Hyperparameters tuned via `GridSearchCV` on RMSE (or negative MSE).
 
----
 
 ## 4. Repository Structure
 
-```text
+
 ames-housing-price-prediction/
 ├─ data/
 │  ├─ train.csv
-│  └─ test.csv              # If provided separately
+│  └─ test.csv             
 ├─ notebooks/
 │  └─ 01_ames_regression.ipynb
 ├─ src/
